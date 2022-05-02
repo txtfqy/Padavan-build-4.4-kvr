@@ -84,7 +84,7 @@ jobs:
         echo "CONFIG_FIRMWARE_INCLUDE_TTYD=n" >> .config #ttyd
         echo "CONFIG_FIRMWARE_INCLUDE_NFSD=y" >> .config #iperf3
         echo "CONFIG_FIRMWARE_INCLUDE_NFSC=n" >> .config #socat
-        echo "CONFIG_FIRMWARE_INCLUDE_SQM=y" >> .config #SQM QOS
+        echo "CONFIG_FIRMWARE_INCLUDE_SQM=n" >> .config #SQM QOS
         #########################################################################################
         #自定义添加其它功能请参考源码configs/templates/目录下的config文件。按照上面的格式添加即可
         #格式如下：
